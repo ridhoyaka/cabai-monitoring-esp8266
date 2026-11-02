@@ -1,0 +1,15 @@
+/* Jika dibuka di HP asli, hilangkan border agar full screen */
+@media (max-width: 480px) {
+    body {
+        padding: 0;
+        background: #111111;
+    }
+    
+    .mobile-container {
+        max-width: 100%;
+        border-radius: 0;
+        border: none;
+        min-height: 100vh;
+        box-shadow: none;
+    }
+}
